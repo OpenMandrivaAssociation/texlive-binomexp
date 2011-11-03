@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/binomexp
+# catalog-date 2007-03-05 14:17:42 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-binomexp
 Version:	1.0
 Release:	1
@@ -44,6 +50,7 @@ or - to print the rows inside an array or tabular.
 #- source
 %doc %{_texmfdistdir}/source/latex/binomexp/binomexp.dtx
 %doc %{_texmfdistdir}/source/latex/binomexp/binomexp.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ or - to print the rows inside an array or tabular.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
