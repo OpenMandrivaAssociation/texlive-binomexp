@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-binomexp
 Version:	1.0
-Release:	6
+Release:	7
 Summary:	Calculate Pascal's triangle
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/binomexp
