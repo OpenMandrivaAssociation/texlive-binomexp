@@ -5,9 +5,9 @@ Summary:	Calculate Pascal's triangle
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/binomexp
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/binomexp.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/binomexp.doc.r15878.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/binomexp.source.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/binomexp.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/binomexp.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/binomexp.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
